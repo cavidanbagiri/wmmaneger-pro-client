@@ -1,9 +1,16 @@
-import React from 'react'
+import ModuleCard from "../components/dashboard/ModuleCard";
+import UserProfileCard from "../components/dashboard/UserProfileCard";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="fade-in">
+      
+      <UserProfileCard />
 
-export default Home
+      <ModuleCard />
+
+    </div>
+  );
+};
+
+export default Home;
